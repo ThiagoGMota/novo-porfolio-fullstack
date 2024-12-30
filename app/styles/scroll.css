@@ -1,0 +1,16 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Esconde a barra de rolagem no Chrome, Safari e Opera */
+  .snap-y::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Esconde a barra de rolagem no IE, Edge e Firefox */
+  .snap-y {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  
