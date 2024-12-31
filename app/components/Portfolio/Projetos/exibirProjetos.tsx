@@ -15,9 +15,9 @@ const ExibirProjetos: React.FC = () => {
         <Carousel className='relative'>
           <CarouselContent className='-ml-4'>
             {projetos.projetosDestaque.map((projeto, index) => (
-              <CarouselItem key={projeto.id} className='pl-4 sm:basis-1/2 md:basis-1/2 lg:basis-1/3'>
+              <CarouselItem key={projeto.id} className='pl-4 sm:basis-1/2 md:basis-1/2 lg:basis-1/3 '>
                 <motion.div 
-                  className='flex flex-col items-center bg-white rounded-lg shadow-md p-6 h-full bg-opacity-40 backdrop-blur-md border-2 border-black'
+                  className='flex flex-col items-center bg-white rounded-lg shadow-md p-6  h-full bg-opacity-40 backdrop-blur-md border-2 border-black'
                   initial={{ opacity: 0, y: 50 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
@@ -59,7 +59,7 @@ const ExibirProjetos: React.FC = () => {
           </div>
         </Carousel>
         <div className='text-center mt-28'>
-          <ButtonLink href='/projetos' text='Ver todos os Projetos' />
+          <ButtonLink href='/portfolio/projetos' text='Ver todos os Projetos' />
         </div>
       </div>
     </div>

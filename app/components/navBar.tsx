@@ -14,9 +14,8 @@ export const Navbar = () => {
   };
   const links = [
     { text: "Portfólio", href: "/portfolio" },
-    { text: "Projetos", href: "/projetos" },
+    { text: "Projetos", href: "/portfolio/projetos" },
     { text: "Blog", href: "/blog" },
-    { text: "Contato", href: "/contato" },
   ];
   const pathname = usePathname();
 

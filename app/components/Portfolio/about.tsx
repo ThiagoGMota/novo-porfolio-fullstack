@@ -5,6 +5,8 @@ import Image from "next/image";
 import React from "react";
 import { Social } from "./social";
 import { motion } from "framer-motion";
+import Link from 'next/link';
+import DownloadButton from '../downloadBtn';
 
 export const About = () => {
   return (
@@ -77,6 +79,7 @@ export const About = () => {
           ><b><i> diferença</i></b></motion.span>.<br /> Seja bem-vindo ao meu portfólio. Espero que goste
           do meu trabalho.
         </motion.p>
+        <DownloadButton />
       </motion.div>
     </div>
   );

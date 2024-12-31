@@ -5,6 +5,9 @@ import CarroselServicos from '@/app/components/Portfolio/Servicos/servicosCarros
 import ExibirProjetos from '../components/Portfolio/Projetos/exibirProjetos'
 import ExibirTecnologias from '../components/Portfolio/Tecnologias/exibirTecnologias'
 import { AnimateWhenVisible } from '../components/animations'
+import Link from 'next/link'
+import { ButtonLink } from '../components/hero/button'
+import Contato from '../components/Portfolio/contato'
 
 const Portfolio = () => {
   return (
@@ -19,14 +22,19 @@ const Portfolio = () => {
           <h1 className='text-4xl text-center mb-12'>Serviços</h1>
           <CarroselServicos/>        
       </div>
-        <div className='pb-16'>
-          <h1 className='text-4xl text-center my-12'>Projetos</h1>
+        <div className='pb-16 w-screen'>
+          <h1 className='text-4xl text-center my-12 '>Projetos</h1>
           <AnimateWhenVisible>
             <ExibirProjetos />
           </AnimateWhenVisible>
         </div>
         <div>
           <ExibirTecnologias />
+        </div>
+        <div className=''>
+        <AnimateWhenVisible>
+          <Contato />
+        </AnimateWhenVisible>
         </div>
 
     </div>

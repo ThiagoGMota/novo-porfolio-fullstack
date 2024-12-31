@@ -71,11 +71,14 @@ export const projetos: ProjetosPorCategoria = {
             title:"Portfolio",
             description:`<h1>Portfolio</h1>
             Este portfolio, construido com Next.Js, TailwindCSS e React. Projeto onde mostro meus projetos e habilidades como desenvolvedor frontend`,
-            primaryImg: "/projetos/portfolio/mac-1.png",
-            otherImgs: [],
+            primaryImg: "/projetos/portfolio-novo/mac-1.png",
+            otherImgs: [
+                "/projetos/portfolio-novo/iphone-1.png"
+            ],
             tecnologies:`Next.Js, TailwindCSS, React`,
             peqDescription:'Este Portfólio ',
-            github:''
+            github:'https://github.com/ThiagoGMota/novo-porfolio-fullstack.git',
+            link2:''
         },
         
         {

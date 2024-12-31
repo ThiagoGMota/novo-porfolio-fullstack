@@ -12,21 +12,21 @@ export const tecnologias: TecnologiaProps[] = [
     {
         name: 'JavaScript',
         image:'/iconsTecnologias/javascript.svg',
-        expertise: 70.6,
+        expertise: 67.6,
         versoInfo: 'A linguagem básica do desenvolvimento web.',
         features: ['Manipulação do DOM', 'ES6+', 'Async/Await', 'Promises', 'Fetch API']
     },
     {
         name: 'TypeScript',
         image:'/iconsTecnologias/typescript.svg',
-        expertise: 70.5,
+        expertise: 60.5,
         versoInfo: 'Um superconjunto tipado de JavaScript.',
         features: ['Tipos Estáticos', 'Interfaces', 'Generics']
     },
     {
         name: 'Angular 17',
         image:'/iconsTecnologias/angular.svg',
-        expertise: 45.0,
+        expertise: 35.0,
         versoInfo: 'Uma plataforma para construir aplicações web.',
         features: ['Componentes', 'Serviços', 'RxJS']
     },
@@ -54,14 +54,14 @@ export const tecnologias: TecnologiaProps[] = [
     {
         name: 'CSS',
         image:'/iconsTecnologias/css.svg',
-        expertise: 80.5,
+        expertise: 75.5,
         versoInfo: 'A linguagem de estilo para descrever a apresentação de documentos HTML.',
         features: ['Flexbox', 'Grid Layout', 'Animações']
     },
     {
         name: 'Next.js',
         image:'/iconsTecnologias/nextjs.svg',
-        expertise: 67.0,
+        expertise: 77.0,
         versoInfo: 'Um framework React para aplicações em produção.',
         features: ['Renderização do Lado do Servidor', 'Rotas Dinâmicas', 'API Routes']
     },
