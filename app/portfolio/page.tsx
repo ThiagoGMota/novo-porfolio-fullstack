@@ -29,6 +29,7 @@ const Portfolio = () => {
           </AnimateWhenVisible>
         </div>
         <div>
+        <h1 className='text-4xl text-center my-12 '>Tecnologias</h1>
           <ExibirTecnologias />
         </div>
         <div className=''>

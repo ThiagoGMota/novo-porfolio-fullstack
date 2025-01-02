@@ -17,7 +17,7 @@ export const services: ServiceProps[] = [
     {
         id: 2,
         title: 'Aplicações Web',
-        description: 'Desenvolvimento de aplicações interativas usando React e Next.js.',
+        description: 'Desenvolvimento de aplicações interativas usando React, Next.js e Angular.',
         icon: <Code />,
     },
     {
@@ -29,13 +29,13 @@ export const services: ServiceProps[] = [
     {
         id: 4,
         title: 'Desenvolvimento de APIs',
-        description: 'Criação de APIs RESTful ou GraphQL para integração com front-end e outros serviços.',
+        description: 'Criação de APIs RESTful simples para integração com front-end e outros serviços.',
         icon: <Server />,
     },
     {
         id: 5,
         title: 'Integração com Banco de Dados',
-        description: 'Configuração e gerenciamento de bancos de dados, como MongoDB, PostgreSQL ou MySQL, para armazenamento eficiente de dados.',
+        description: 'Configuração e gerenciamento de bancos de dados,  PostgreSQL , para armazenamento eficiente de dados.',
         icon: <Database />,
     },
     /* {

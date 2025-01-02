@@ -39,7 +39,7 @@ const HeroPage: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.8 }}
           >
-            FullStack Developer
+            Frontend Developer
           </motion.p>
         </motion.div>
 

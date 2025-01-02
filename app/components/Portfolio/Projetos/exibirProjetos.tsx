@@ -9,15 +9,18 @@ import { ButtonLink } from '../../hero/button'
 import { motion } from 'framer-motion'
 
 const ExibirProjetos: React.FC = () => {
+  // Limit the number of projects to 6
+  const limitedProjetos = projetos.projetos.slice(0, 6)
+
   return (
-    <div className=' px-4 sm:px-6 lg:px-8 '>
+    <div className='px-4 sm:px-6 lg:px-8'>
       <div className='max-w-7xl mx-auto'>
         <Carousel className='relative'>
           <CarouselContent className='-ml-4'>
-            {projetos.projetosDestaque.map((projeto, index) => (
-              <CarouselItem key={projeto.id} className='pl-4 sm:basis-1/2 md:basis-1/2 lg:basis-1/3 '>
+            {limitedProjetos.map((projeto, index) => (
+              <CarouselItem key={projeto.id} className='pl-4 sm:basis-1/2 md:basis-1/2 lg:basis-1/3'>
                 <motion.div 
-                  className='flex flex-col items-center bg-white rounded-lg shadow-md p-6  h-full bg-opacity-40 backdrop-blur-md border-2 border-black'
+                  className='flex flex-col items-center bg-white rounded-lg shadow-md p-6 h-full bg-opacity-40 backdrop-blur-md border-2 border-black'
                   initial={{ opacity: 0, y: 50 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
@@ -51,7 +54,6 @@ const ExibirProjetos: React.FC = () => {
                 </motion.div>
               </CarouselItem>
             ))}
-            
           </CarouselContent>
           <div className="absolute -bottom-12 left-1/2 transform -translate-x-1/2 flex space-x-4">
             <CarouselPrevious />

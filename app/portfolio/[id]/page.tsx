@@ -25,7 +25,7 @@ const getImageContainerClass = (imageName: string) => {
 const ProjetoDetalhes: React.FC = () => {
   const { id } = useParams();
 
-  const projeto = projetos.projetosDestaque.find(proj => proj.id === Number(id));
+  const projeto = projetos.projetos.find(proj => proj.id === Number(id));
 
   if (!projeto) {
     return (

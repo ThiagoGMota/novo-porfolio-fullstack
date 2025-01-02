@@ -33,7 +33,7 @@ export const tecnologias: TecnologiaProps[] = [
     {
         name: 'PostgreSQL',
         image:'/iconsTecnologias/postgresql.svg',
-        expertise: 67.0,
+        expertise: 57.0,
         versoInfo: 'Um sistema de gerenciamento de banco de dados relacional.',
         features: ['Consultas SQL', 'Transações', 'Stored Procedures']
     },
@@ -78,5 +78,47 @@ export const tecnologias: TecnologiaProps[] = [
         expertise: 60.5,
         versoInfo: 'Uma linguagem de script para automação de tarefas no shell.',
         features: ['Automação de Tarefas', 'Manipulação de Arquivos', 'Scripts de Backup']
-    }
+    },
+    {
+        name: 'Git',
+        image:'/iconsTecnologias/git.svg',
+        expertise: 60.5,
+        versoInfo: 'Uma linguagem de script para automação de tarefas no shell.',
+        features: ['Automação de Tarefas', 'Manipulação de Arquivos', 'Scripts de Backup']
+    },
+    {
+        name: 'GitHub',
+        image:'/iconsTecnologias/github.svg',
+        expertise: 80.5,
+        versoInfo: 'Uma linguagem de script para automação de tarefas no shell.',
+        features: ['Automação de Tarefas', 'Manipulação de Arquivos', 'Scripts de Backup']
+    },
+    {
+        name: 'Jest',
+        image:'/iconsTecnologias/jest.svg',
+        expertise: 40.5,
+        versoInfo: '',
+        features: ['Automação de Tarefas', 'Manipulação de Arquivos', 'Scripts de Backup']
+    },
+    {
+        name: 'Npm',
+        image:'/iconsTecnologias/npm.svg',
+        expertise: 80.5,
+        versoInfo: '',
+        features: ['Automação de Tarefas', 'Manipulação de Arquivos', 'Scripts de Backup']
+    },
+    {
+        name: 'Scss',
+        image:'/iconsTecnologias/sass.svg',
+        expertise: 50.5,
+        versoInfo: '',
+        features: ['Automação de Tarefas', 'Manipulação de Arquivos', 'Scripts de Backup']
+    },
+    {
+        name: 'Yarn',
+        image:'/iconsTecnologias/yarn.svg',
+        expertise: 75.5,
+        versoInfo: '',
+        features: ['Automação de Tarefas', 'Manipulação de Arquivos', 'Scripts de Backup']
+    },
 ];

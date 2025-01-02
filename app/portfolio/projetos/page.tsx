@@ -8,7 +8,7 @@ import Link from 'next/link'
 const AllProjects = () => {
   return (
     <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-4 py-12 px-8'>
-      {projetos.projetosTodos.map((projeto, index) => (
+      {projetos.projetos.map((projeto, index) => (
          <motion.div 
          key={projeto.id}
          className='flex flex-col items-center bg-white rounded-lg shadow-md p-6 h-full bg-opacity-40 backdrop-blur-md border-2 border-black'
