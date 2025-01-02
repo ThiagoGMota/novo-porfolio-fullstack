@@ -50,8 +50,8 @@ const HeroPage: React.FC = () => {
           transition={{ delay: 0.6, duration: 0.8 }}
         >
           <ButtonLink href="/portfolio" text="Portfólio"/>
-          <ButtonLink href="/blog" text="Blog" />
-        </motion.div>
+{/*           <ButtonLink href="/blog" text="Blog" />
+ */}        </motion.div>
       </div>
     </main>
   );

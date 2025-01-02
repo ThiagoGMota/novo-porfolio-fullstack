@@ -59,7 +59,7 @@ export const projetos: ProjetosPorCategoria = {
             id:3,
             title:"Blog",
             description:`<h1>Blog</h1>
-            Blog pessoal usando o Notion como CMS. Este blog esta localizado nesta mesma aplicação, porém o repositorio do projeto esta separado no github. Acessivel pelo link abaixo.`,
+            Blog pessoal usando o Notion como CMS. Não hospedado.`,
             primaryImg: "/projetos/blog/mac-1.png",
             otherImgs: [
                 "/projetos/blog/mac-1.png",
