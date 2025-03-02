@@ -61,7 +61,7 @@ export const tecnologias: TecnologiaProps[] = [
     {
         name: 'Next.js',
         image:'/iconsTecnologias/nextjs.svg',
-        expertise: 77.0,
+        expertise: 60.0,
         versoInfo: 'Um framework React para aplicações em produção.',
         features: ['Renderização do Lado do Servidor', 'Rotas Dinâmicas', 'API Routes']
     },
@@ -121,4 +121,16 @@ export const tecnologias: TecnologiaProps[] = [
         versoInfo: '',
         features: ['Automação de Tarefas', 'Manipulação de Arquivos', 'Scripts de Backup']
     },
+    {
+        name: 'jQuery',
+        image: '/iconsTecnologias/jquery.svg',
+        expertise: 70,
+        versoInfo:'',
+    },
+    {
+        name: 'MongoDB',
+        image: '/iconsTecnologias/mongo.svg',
+        versoInfo:'',
+        expertise: 40,
+    }
 ];
