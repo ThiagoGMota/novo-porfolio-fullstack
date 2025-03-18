@@ -17,6 +17,30 @@ export interface ProjetosPorCategoria {
 export const projetos: ProjetosPorCategoria = {
     projetos: [
         {
+            id:0,
+            title: "Restaurant",
+            primaryImg:"/projetos/restaurant/mac1.png",
+            otherImgs:[
+                "/projetos/restaurant/mac1.png",
+                "/projetos/restaurant/mac2.png",
+                "/projetos/restaurant/mac-3.png",
+                "/projetos/restaurant/mac4.png",
+                "/projetos/restaurant/mac5.png",
+                "/projetos/restaurant/iphone1.png",
+                "/projetos/restaurant/iphone2.png",
+                "/projetos/restaurant/iphone3.png",
+                "/projetos/restaurant/iphone4.png",
+                "/projetos/restaurant/iphone5.png",
+                "/projetos/restaurant/iphone6.png",
+                "/projetos/restaurant/iphone7.png",
+            ],
+            description:"Aplicação web de um restaurante e delivery. Apenas Interface(ainda)",
+            tecnologies:"Nextjs, TailwindCss, React",
+            peqDescription:"Aplicação web de um restaurante",
+            github:"https://github.com/ThiagoGMota/restaurant.git",
+            link2:"https://restaurant-roan-mu.vercel.app/"
+        },
+        {
             id:1,
             title:"Coffee Shop",
             primaryImg: "/projetos/coffee-shop/mac-1.png",
