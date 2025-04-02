@@ -17,8 +17,28 @@ export interface ProjetosPorCategoria {
 export const projetos: ProjetosPorCategoria = {
     projetos: [
         {
-            id:0,
-            title: "Restaurant",
+            title:'Valete Plus Clone',
+            primaryImg:'/projetos/valete/mac1.png',
+            otherImgs:[
+                '/projetos/valete/mac1.png',
+                '/projetos/valete/mac2.png',
+                '/projetos/valete/mac3.png',
+                '/projetos/valete/mac4.png',
+                '/projetos/valete/iphone1.png',
+                '/projetos/valete/iphone2.png',
+                '/projetos/valete/iphone3.png',
+                '/projetos/valete/iphone4.png',
+                '/projetos/valete/iphone5.png',
+                '/projetos/valete/iphone6.png',
+            ],
+            description:"Clone da Landing Page do Valete Plus. Construida em Next.JS, alguns componentes do ShadCn Ui, animaçoes com GSAP, css com TailwindCss",
+            tecnologies:'Html, Css, Typescript, Nextjs, TailwindCss, GSAP',
+            peqDescription:'Landing Page',
+            github:'https://github.com/ThiagoGMota/valete--.git',
+            link2:'https://valete.vercel.app/'
+        },
+        {
+                        title: "Restaurant",
             primaryImg:"/projetos/restaurant/mac1.png",
             otherImgs:[
                 "/projetos/restaurant/mac1.png",
@@ -41,8 +61,7 @@ export const projetos: ProjetosPorCategoria = {
             link2:"https://restaurant-roan-mu.vercel.app/"
         },
         {
-            id:1,
-            title:"Coffee Shop",
+                        title:"Coffee Shop",
             primaryImg: "/projetos/coffee-shop/mac-1.png",
             otherImgs: [
                 "/projetos/coffee-shop/mac-1.png",
@@ -63,8 +82,7 @@ export const projetos: ProjetosPorCategoria = {
             
         },
         {
-            id:2,
-            title:"Gestor Pessoal - Landing Page",
+                        title:"Gestor Pessoal - Landing Page",
             primaryImg: "/projetos/my-money/Mac-1.png",
             otherImgs: [
                 "/projetos/my-money/Mac-1.png",
@@ -80,8 +98,7 @@ export const projetos: ProjetosPorCategoria = {
             github:'https://github.com/ThiagoGMota/MyMoney-webApp.git'
         },
         {
-            id:3,
-            title:"Blog",
+                        title:"Blog",
             description:`<h1>Blog</h1>
             Blog pessoal usando o Notion como CMS. Não hospedado.`,
             primaryImg: "/projetos/blog/mac-1.png",
@@ -96,8 +113,7 @@ export const projetos: ProjetosPorCategoria = {
             github:'https://github.com/ThiagoGMota/blog.git'
         },
         {
-            id:4,
-            title:"Portfolio",
+                        title:"Portfolio",
             description:`<h1>Portfolio</h1>
             Este portfolio, construido com Next.Js, TailwindCSS e React. Projeto onde mostro meus projetos e habilidades como desenvolvedor frontend`,
             primaryImg: "/projetos/portfolio-novo/mac-1.png",
@@ -111,8 +127,7 @@ export const projetos: ProjetosPorCategoria = {
         },
         
         {
-            id:5,
-            title:'Sherlock Holmes Box',
+                        title:'Sherlock Holmes Box',
             primaryImg:"/projetos/sherlock/Mac-1.png",
             otherImgs:[
                 "/projetos/sherlock/Mac-1.png",
@@ -129,8 +144,7 @@ export const projetos: ProjetosPorCategoria = {
             link2:"https://thiagogmota.github.io/lp-sherlock-holmes/"
         },
         {
-            id:6,
-            title:"Quiz",
+                        title:"Quiz",
             primaryImg: "/projetos/quiz/mac.png",
             otherImgs: [
                 "/projetos/quiz/mac.png",
@@ -145,8 +159,7 @@ export const projetos: ProjetosPorCategoria = {
             link2:''
         },
         {
-            id:7,
-            title:"Youjitsu",
+                        title:"Youjitsu",
             primaryImg: "/projetos/youjitsu/Mac-1.png",
             otherImgs: [
                 "/projetos/youjitsu/Mac-1.png",
@@ -160,8 +173,7 @@ export const projetos: ProjetosPorCategoria = {
             link2:''
         },
         {
-            id:8,
-            title:"Landing Page",
+                        title:"Landing Page",
             primaryImg: "/projetos/lpk/mac1.png",
             otherImgs: [
                 "/projetos/lpk/mac1.png",
@@ -175,8 +187,7 @@ export const projetos: ProjetosPorCategoria = {
             link2:''
         },
         {
-            id:9,
-            title:"Odontologia",
+                        title:"Odontologia",
             primaryImg: "/projetos/carol/mac-1.png",
             otherImgs: [
                 "/projetos/carol/mac-1.png",
@@ -191,7 +202,7 @@ export const projetos: ProjetosPorCategoria = {
             link2:''
         },
         {
-            id:10,
+            
             title:"Agencia Fake",
             primaryImg: "/projetos/agencia-fake/mac-1.png",
             otherImgs: [
@@ -208,7 +219,7 @@ export const projetos: ProjetosPorCategoria = {
             link2:''
         },
         {
-            id:11,
+            
             title:"Blog Sanity",
             primaryImg: "/projetos/danity/m.png",
             otherImgs: [
@@ -224,7 +235,7 @@ export const projetos: ProjetosPorCategoria = {
             link2:''
         },
         {
-            id:12,
+            
             title:"Advocacia",
             primaryImg: "/projetos/advocacia/mac-1.png",
             otherImgs: [
@@ -241,7 +252,7 @@ export const projetos: ProjetosPorCategoria = {
             link2:''
         },
         {
-            id:13,
+            
             title:"Portfólio",
             primaryImg: "/projetos/old-portfolio/m-1.png",
             otherImgs: [
@@ -261,6 +272,6 @@ export const projetos: ProjetosPorCategoria = {
             github:'https://github.com/ThiagoGMota/My-Portfolio.git',
             link2:''
         },
-    ]
+    ].map((projetos, i) => ({ ...projetos, id: i + 1 }))//id automatico
     
 };
